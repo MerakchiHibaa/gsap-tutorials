@@ -5,6 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin : 0 ; 
+            height : 100vh ; 
+            display : flex ; 
+            flex-direction :column
+        }
+        .links {
+            display : flex ; 
+            justify-content : space-around ; 
+            align-items : center ; 
+            height: 100%;
+            color : white ; 
+        }
+        .footer {
+            height: 15vh ; 
+            background-color : blue ;
+        }
+
+        .header {
+            height : 15vh ; 
+            background-color :red ; 
+        }
+        .content {
+            flex-grow: 1;
+            display : flex ; 
+            justify-content : space-between ;
+
+
+        }
+        .button {
+            align-self:  center ;
+
+        }
+        .sidebar { 
+            background-color : green ;
+            width : 15vw;
+        }
+    </style>
 </head>
 <body>
     <div class="header"><div class="links"> 
